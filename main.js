@@ -5,12 +5,12 @@ function verificarTime() {
 
   while (continuarPerguntando) {
     
-    var respostaTime = prompt("Qual o melhor time?");
+    var respostaTime = prompt("qual o último campeão Mundial?");
 
     
-    if (respostaTime.toLowerCase() === "athlético pr") {
-      alert("Isso mesmo! O Athlético PR é o melhor time!");
-      continuarPerguntando = false; // Sai do loop após a resposta correta
+    if (respostaTime.toLowerCase() === ("Corinthians") {
+      alert("Isso mesmo!");
+            continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {
       alert("Não é isso! Tente novamente.");
     }
